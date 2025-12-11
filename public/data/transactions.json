@@ -1,0 +1,21 @@
+[
+  { "customerId": 101, "name": "Aarav Patel", "transactionId": "TXN-IND-01", "amount": 124.50, "date": "2025-03-12" },
+  { "customerId": 101, "name": "Aarav Patel", "transactionId": "TXN-IND-02", "amount": 76.00, "date": "2025-02-14" },
+  { "customerId": 101, "name": "Aarav Patel", "transactionId": "TXN-IND-03", "amount": 49.99, "date": "2025-01-20" },
+  { "customerId": 102, "name": "Vihaan Kumar", "transactionId": "TXN-IND-04", "amount": 210.00, "date": "2025-03-05" },
+  { "customerId": 102, "name": "Vihaan Kumar", "transactionId": "TXN-IND-05", "amount": 55.50, "date": "2025-01-15" },
+  { "customerId": 103, "name": "Diya Sharma", "transactionId": "TXN-IND-06", "amount": 300.00, "date": "2025-02-28" },
+  { "customerId": 103, "name": "Diya Sharma", "transactionId": "TXN-IND-07", "amount": 100.00, "date": "2024-12-25" },
+  { "customerId": 104, "name": "Arjun Singh", "transactionId": "TXN-IND-08", "amount": 1000.00, "date": "2024-11-10" },
+  { "customerId": 105, "name": "Ishaan Gupta", "transactionId": "TXN-IND-09", "amount": 120.00, "date": "2023-06-15" },
+  { "customerId": 106, "name": "Ananya Iyer", "transactionId": "TXN-IND-10", "amount": 45.00, "date": "2022-04-10" },
+  { "customerId": 107, "name": "Rohan Mehta", "transactionId": "TXN-IND-11", "amount": 150.00, "date": "2025-03-01" },
+  { "customerId": 108, "name": "Kavya Reddy", "transactionId": "TXN-IND-12", "amount": 99.00, "date": "2025-02-11" },
+  { "customerId": 109, "name": "Siddharth Malhotra", "transactionId": "TXN-IND-13", "amount": 51.00, "date": "2025-01-05" },
+  { "customerId": 110, "name": "Meera Joshi", "transactionId": "TXN-IND-14", "amount": 250.50, "date": "2025-02-22" },
+  { "customerId": 111, "name": "Vikram Rao", "transactionId": "TXN-IND-15", "amount": 80.00, "date": "2025-01-18" },
+  { "customerId": 112, "name": "Pooja Nair", "transactionId": "TXN-IND-16", "amount": 101.00, "date": "2025-03-18" },
+  { "customerId": 113, "name": "Rajesh Khanna", "transactionId": "TXN-IND-17", "amount": 60.00, "date": "2024-05-05" },
+  { "customerId": 114, "name": "Suresh Raina", "transactionId": "TXN-IND-18", "amount": 500.00, "date": "2021-07-20" },
+  { "customerId": 115, "name": "Neha Dhupia", "transactionId": "TXN-IND-19", "amount": 110.00, "date": "2025-03-09" }
+]
