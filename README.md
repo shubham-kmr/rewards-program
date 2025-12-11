@@ -1,16 +1,39 @@
-# React + Vite
+# Rewards Program App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application to calculate customer reward points based on transaction history.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.  **Clone the repository**
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the application:**
+    ```bash
+    npm run dev
+    ```
+4.  **Run Unit Tests:**
+    ```bash
+    npm test
+    ```
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React + Vite
+- **Styling:** Styled Components
+- **Logging:** Pino
+- **Data:** Local JSON Mock (simulated Async API)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Customer Selection:** Dropdown to view specific customer data.
+- **Reward Calculation:**
+  - 2 points for every dollar spent over $100.
+  - 1 point for every dollar spent between $50 and $100.
+- **Filtering:** Filter by Year and Month.
+- **Summary:** View monthly and total reward points.
+- **Drill-down:** View detailed transaction history per month.
+
+## API Simulation
+Data is fetched from `public/data/transactions.json` with a simulated delay and logging via `src/api/mockApi.js`.
